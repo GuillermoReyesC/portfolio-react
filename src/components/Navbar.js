@@ -20,7 +20,15 @@ export default function Navbar() {
           <a href="#testimonials" className="mr-5 hover:text-white">
             comentarios sobre mi
           </a>
+          <a href="https://github.com/GuillermoReyesC" className="mr-5 hover:text-white">
+            Github
+          </a>
         </nav>
+        <a
+          href="https://www.linkedin.com/in/guillermo-reyes-dev/"
+          className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
+          LinkedIn
+        </a>
         <a
           href="#contact"
           className="inline-flex items-center bg-gray-800 border-0 py-1 px-3 focus:outline-none hover:bg-gray-700 rounded text-base mt-4 md:mt-0">
