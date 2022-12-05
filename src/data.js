@@ -88,14 +88,68 @@ export const skills = [
   "React.js",
   "Laravel",
   "Vue.js",
-  "git",
+  "Git",
   "php",
   "MySQL",
   "MongoDB",
   "PostgreSQL",
   "Node.js",
-  "Html/html5",
+  "Html/Html5",
   "css/css3",
 
 
 ];
+
+export const devSkills = [
+  { type: 'Javascript', level: 67 },
+  { type: 'React.js', level: 45 },
+  { type: 'Laravel', level: 60 },
+  { type: 'PHP', level: 55 },
+  { type: 'Vue.js', level: 47 },
+  { type: 'Git', level: 50 },
+  { type: 'MySQL', level: 65 },
+  { type: 'PostgreSQL', level: 20 },
+  { type: 'MongoDB', level: 25 },
+  { type: 'Html/Html5', level: 70 },
+  { type: 'css/css3', level: 70 },
+
+
+
+];
+
+export const colors = {
+ bar: "#3498db",
+  title: {
+    text: "#fff",
+    background: "#2980b9"
+  },
+};
+
+
+export const moreColors = {
+  bar: { hue: 0,
+    saturation: 50,
+    level: {
+      minimum: 20,
+      maximum: 100
+    }},
+  title: {
+    text: {
+      hue: {
+        minimum: 30,
+        maximum: 150,
+      },
+      saturation: 50,
+      level: {
+        minimum: 30,
+        maximum: 90,
+      },
+    },
+    background: {
+      hue: 20,
+      saturation: 50,
+      level: 30,
+    },
+    
+  },
+};
