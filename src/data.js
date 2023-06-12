@@ -35,7 +35,7 @@ export const projects = [
     title: "Tienda online BSALE",
     subtitle: "Laravel - Javascript (vanilla JS)",
     description:
-      "proyecto de tienda en línea conectada a su API(Backend desarrollado en Laravel) y el Frontend desarrollado en JavaScript.",
+      "proyecto de tienda en línea conectada a su API(Backend desarrollado en Laravel), Frontend desarrollado en JavaScript.",
     image: "./bsale.gif",
     link: "https://guillermoreyesc.github.io/bsale-tienda-test/",
   },
@@ -43,7 +43,7 @@ export const projects = [
     title: "Country Search app",
     subtitle: "React Apollo Client & GraphQL",
     description:
-      "Buscador de países Desarrollado con React.js, Apollo Client & GraphQL, busquedas en tiempo real.",
+      "Buscador de países Desarrollado con React.js, Apollo Client & GraphQL, busquedas en tiempo real. (prueba tecnica)",
     image: "./country-search.gif",
     link: "https://guillermoreyesc.github.io/kim-dev-chechallenge/",
   },
@@ -60,7 +60,7 @@ export const projects = [
     subtitle: "React.js - Styled-Components",
     description:
       "Landing Page Desarrollado en React.js con Styled-components, full responsive. Proyecto de 'emprendimiento' en el cual estoy desarrollando su sitio web segun los requerimientos de la empresa",
-    image: "./callcel.gif",
+    image: "../callcel.gif",
     link: "https://www.callcel.cl",
   },
 
@@ -70,27 +70,36 @@ export const testimonials = [
   {
     quote:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/1.jpg",
-    name: "Jesse Hicks",
-    company: "Zoozle",
+      image: "/joseO.jpg",
+      name: "Jose Osses",
+      company: "ionix",
+    },
+    {
+      quote:
+      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+      image: "/giovanniN.jpg",
+      name: "Giovanni Nocceti",
+      company: "Dooble.io",
   },
   {
     quote:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-    image: "https://randomuser.me/api/portraits/men/94.jpg",
-    name: "Ruben Alvarez",
-    company: "Dooble.io",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
+    image: "/me.jpg",
+    name: "Guillermo reyes",
+    company: "Viumi",
   },
 ];
 
 export const skills = [
   "JavaScript",
+  "C#",
   "React.js",
   "Laravel",
   "Vue.js",
   "Git",
   "php",
   "MySQL",
+  "SQL",
   "MongoDB",
   "PostgreSQL",
   "Node.js",
@@ -101,17 +110,19 @@ export const skills = [
 ];
 
 export const devSkills = [
-  { type: 'Javascript', level: 67 },
-  { type: 'React.js', level: 45 },
-  { type: 'Laravel', level: 60 },
-  { type: 'PHP', level: 55 },
+  { type: 'Javascript', level: 57 },
+  { type: 'C#', level: 35 },
+  { type: 'React.js', level: 38 },
+  { type: 'Laravel', level: 50 },
+  { type: 'PHP', level: 45 },
   { type: 'Vue.js', level: 47 },
   { type: 'Git', level: 50 },
-  { type: 'MySQL', level: 65 },
+  { type: 'MySQL', level: 55 },
+  { type: 'SQL', level: 55 },
   { type: 'PostgreSQL', level: 20 },
   { type: 'MongoDB', level: 25 },
-  { type: 'Html/Html5', level: 70 },
-  { type: 'css/css3', level: 70 },
+  { type: 'Html/Html5', level: 75 },
+  { type: 'css/css3', level: 75 },
 
 
 

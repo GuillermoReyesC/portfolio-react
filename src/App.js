@@ -2,7 +2,6 @@ import React from "react";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Navbar from "./components/Navbar";
-/* import ProgressBar from "./components/ProgressBar"; */
 import Projects from "./components/Projects";
 import SkillsProgressBar from "./components/SkillsProgressBar";
 
@@ -15,9 +14,7 @@ export default function App() {
       <Navbar />
       <About />
       <Projects />
-{/*       <ProgressBar progress={50}/> */}
       <SkillsProgressBar />
-
       <Testimonials />
       <Contact />
     </main>
